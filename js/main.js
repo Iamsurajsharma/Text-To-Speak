@@ -62,7 +62,8 @@ const speak = ()=>{
 
         synth.speak(speakText);
 
-    }else{
+    }
+    else{
         alert("Input Box Can't be Empty");
     }
 }
